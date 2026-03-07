@@ -1,0 +1,60 @@
+body
+{
+    background-image: linear-gradient(to bottom right, #3e0a0a, rgb(147, 6, 6));
+    padding: 0;
+    margin: 0;
+}
+
+.form
+{
+    padding: 40px;
+    width: 250px;
+}
+.form h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+.form label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif,;
+    color: White;
+    font-size: 18px;
+}
+
+.form input{
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    border:none;
+}
+.form button
+{
+
+    margin: 8px auto;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(114, 5, 5);
+    font-size: 18px;
+    font-weight: bolder;
+    display: block;
+    margin-top: 20px;
+}
+
+.form button:hover
+{
+    color:black;
+}
+#login
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
